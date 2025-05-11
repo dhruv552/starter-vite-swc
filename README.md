@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# 🌱 EcoTrack – Carbon Footprint Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoTrack is a sustainability-focused full-stack web application that helps users monitor and reduce their daily carbon footprint. It calculates CO₂ emissions from food, electricity, and vehicle usage — and even rewards cab drivers and passengers for eco-friendly behaviors.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔋 **Carbon Footprint Calculator**
+  - Daily emissions from food, electricity, and travel
+  - "Trees saved" metric for visual motivation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🚗 **Cab Integration**
+  - Calculates CO₂ impact of each ride
+  - Both drivers and passengers earn **Green Points**
 
-- Configure the top-level `parserOptions` property like this:
+- 🍽️ **Food Emission Insights**
+  - Estimates based on diet, cooking method, and local sourcing
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- ⚡ **Electricity Usage Tracker**
+  - Tracks daily energy use and renewable sources
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔹 Frontend
+- React.js
+- Tailwind CSS
+
+### 🔹 Backend
+- Node.js
+- Express.js
+
+### 🔹 Database
+- MongoDB (Mongoose ODM)
+
+---
+
+## 📦 Dependencies
+
+Install these via `npm install` after cloning the repo.
+
+### Backend
+```bash
+express
+mongoose
+cors
+dotenv
+nodemon
+
+
+### Frontend
+
+react
+react-dom
+axios
+tailwindcss
+postcss
+autoprefixer
+
